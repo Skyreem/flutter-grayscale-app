@@ -1,6 +1,7 @@
 {
   "name": "Flutter Codespace",
   "image": "ghcr.io/cirruslabs/flutter:latest",
+  "features": {},
   "customizations": {
     "vscode": {
       "extensions": [
