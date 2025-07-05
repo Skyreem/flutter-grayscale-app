@@ -1,0 +1,15 @@
+{
+  "name": "Flutter Codespace",
+  "image": "ghcr.io/cirruslabs/flutter:latest",
+  "features": {
+    "ghcr.io/devcontainers/features/docker-in-docker:1": {}
+  },
+  "postCreateCommand": "flutter doctor",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "Dart-Code.flutter"
+      ]
+    }
+  }
+}
